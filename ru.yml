@@ -52,3 +52,6 @@ coding:
     other:
       values:
         title: "&fЗначения кода"
+creative:
+    generators:
+      void: "&eПустой мир"
