@@ -19,6 +19,8 @@ command:
       not-found: "&cUnable to teleport you to spawn, please report this to the server administration."
 menu:
   item:
+    next-page: "&eNext page"
+    previous-page: "&ePrevious page"
     exit: "&f&l   &4🔙&f &8&l|&f &cCʟᴏsᴇ&f&l   "
     my-world: "&1🛠 &8&l|&f &9Mʏ ᴡᴏʀʟᴅs&&f&l"
   title:
