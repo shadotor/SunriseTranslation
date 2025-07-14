@@ -53,5 +53,22 @@ coding:
       values:
         title: "&fЗначения кода"
 creative:
-    generators:
-      void: "&eПустой мир"
+  world:
+    create: "&aСоздать мир"
+    reset: "&cСбросить настройки"
+  setting:
+    world-size: "&eРазмер мира"
+    seed: "&eКлюч генерации мира"
+    generate-structures: "&eГенерация структур"
+    name: "&eНазвание мира"
+    gamemode: "&eСтандартный режим игры мира"
+  access:
+    denied: "&cОтказано в доступе"
+  message:
+    teleport: "&aУспешно телепортировали вас в мир!"
+  generators:
+    survival: "&2Мир выживания"
+    flat: "&aПлоский мир"
+    void: "&eПустой мир"
+scripting:
+  info: "&6Sunrise Scripting, модификация мира. \n &eИспользование: /scripting <argument>"
