@@ -1,10 +1,74 @@
+indev: "This feature is under development."
 command:
   locale:
     message:
-      info: "This command change your server language \n&eUsage: /locale <lang>"
+      info: "This command changes your language on the server. \n&eUsage: /locale <language>"
   creative:
+    title:
+      generatingTitle: "&eWe create a world for you..."
+      generatingSubTitle: "&fThis may take some time."
     message:
-      info: "This command support you to browse worlds\n&eUsage /creative <arguments>"
+      world-created: "&aThe world has been successfully generated!"
+      wrong-id: "&cInvalid ID"
+      teleport: "&eYou have successfully teleported into the world."
+      info: "This command will help you navigate the worlds\n&eUsage: /creative <arguments>"
+  spawn:
+    message:
+      success: "&aSpawn point successfully created!"
+      teleported: "&aSuccessfully teleported."
+      not-found: "&cUnable to teleport you to spawn, please report this to the server administration."
 menu:
-  worlds: "Player worlds"
-  my-world: "My worlds"
+  item:
+    exit: "&f&l   &4🔙&f &8&l|&f &cCʟᴏsᴇ&f&l   "
+    my-world: "&1🛠 &8&l|&f &9Mʏ ᴡᴏʀʟᴅs&&f&l"
+  title:
+    worlds: "Player Worlds"
+    my-world: "My worlds"
+    recommended: "Recommended Worlds"
+    create: "Creation of the world"
+coding:
+  teleporting: "&eTeleport to the world of code..."
+  teleport:
+    error: "&cError teleporting to the world, please inform the administration."
+  item:
+    types:
+      title: "&fType:"
+      action: "&eAction"
+      event: "&bEvent"
+    event:
+      player:
+        title: "&bPlayer Event"
+      start-block:
+        title: "&dStart block"
+    action:
+      player:
+        title: "&aPlayer action"
+      world:
+        title: "&cAction of the world"
+      line:
+        title: "&dAction on lines"
+      variable:
+        title: "&eAction on a variable"
+    other:
+      values:
+        title: "&fCode meanings"
+creative:
+  world:
+    create: "&aCreate a world"
+    reset: "&cReset settings"
+  setting:
+    world-size: "&eThe size of the world"
+    seed: "&eWorld Generation Key"
+    generate-structures: "&eGeneration of structures"
+    name: "&eName of the world"
+    gamemode: "&eStandard World Game Mode"
+  access:
+    denied: "&cAccess denied"
+  message:
+    teleport: "&aWe have successfully teleported you into the world!"
+  generators:
+    survival: "&2World of Survival"
+    flat: "&aFlat world"
+    void: "&eEmpty world"
+scripting:
+  info: "&6Sunrise Scripting, modification of the world. \n &eUsage: /scripting <argument>"
