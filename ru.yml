@@ -73,4 +73,12 @@ creative:
     flat: "&aПлоский мир"
     void: "&eПустой мир"
 scripting:
+  add: 
+    error: "&cПроизошла ошибка при добавлении скрипта."
+    success: "&aИнструкция успешно добавлена!"
+  addLine:
+    error: "&cПроизошла ошибка при установке события."
+    success: "&aСобытие успешно установлено!"
+  setArg:
+    success: "&cАргумент действия успешно установлен"
   info: "&6Sunrise Scripting, модификация мира. \n &eИспользование: /scripting <argument>"
