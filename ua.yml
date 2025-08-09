@@ -53,5 +53,20 @@ coding:
       values:
         title: "&fЗначення коду"
 creative:
-    generators:
-      void: "&eПорожній світ"
+  world:
+    create: "&aСтворити світ"
+    reset: "&cСкинути налаштування"
+  setting:
+    world-size: "&eРозмір світу"
+    seed: "&eКлюч генерації світу"  
+    generate-structures: "&eГенерація структур"
+    name: "&eНазва світу"
+    gamemode: "&eСтандартний ігровий режим світу"  
+  access:
+    denied: "&cВідмовлено у доступі"
+  message:
+    teleport: "&aВас успішно телепортовано до світу!"  
+  generators:
+    survival: "&2Світ виживання"
+    flat: "&aПлоский світ"  
+    void: "&eПорожній світ"
