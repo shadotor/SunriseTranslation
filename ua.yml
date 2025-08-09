@@ -44,7 +44,7 @@ coding:
       player:
         title: "&aДія гравця"
       world:
-        title: "&cДія миру"
+        title: "&cДія світу"
       line:
         title: "&dДія над лініями"
       variable:
