@@ -82,3 +82,13 @@ scripting:
   setArg:
     success: "&cАргумент действия успешно установлен"
   info: "&6Sunrise Scripting, модификация мира. \n &eИспользование: /scripting <argument>"
+items:
+  player-event:
+    title: "&bСобытие игрока"
+  player-action:
+    title: "&aДействие игрока"
+  world-browser:
+    title:  "&eМеню миров"
+  my-worlds:
+    title: "&aМои миры"
+
