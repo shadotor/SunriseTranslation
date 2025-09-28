@@ -83,12 +83,34 @@ scripting:
     success: "&cАргумент действия успешно установлен"
   info: "&6Sunrise Scripting, модификация мира. \n &eИспользование: /scripting <argument>"
 items:
+  code-action:
+    title: "&7Действие над кодом"
+  selector-action:
+    title: "&dДействие над выборкой"
+  entity-event:
+    title: "&aСобытие существа"
+  entity-action:
+    title: "&aДействие над существом"
+  variable-action:
+    title: "&eДействие над переменной"
+  data-action:
+    title: "&eДействие над данными"
+  world-event:
+    title: "&cСобытие мира"
+  world-action:
+    title: "&cДействие над миром"
   player-event:
     title: "&bСобытие игрока"
   player-action:
-    title: "&aДействие игрока"
+    title: "&aДействие над игроком"
   world-browser:
     title:  "&eМеню миров"
   my-worlds:
     title: "&aМои миры"
+block-category:
+  action: "&aДействие"
+  event: "&bСобытие"
+  condition: "&eУсловие"
+  conditional: "&cУсловная конструкция"
+  executor: "&aИсполнитель"
 
