@@ -114,6 +114,8 @@ block-category:
   conditional: "&cУсловная конструкция"
   executor: "&aИсполнитель"
 action:
+
+# Действия/Условия игрока
   PLAYER_SEND_MESSAGE:
     name: "&aОтправить сообщение"
   PLAYER_SEND_TITLE:
@@ -136,6 +138,10 @@ action:
     name: "&fЕсли игрок рядом с местоположением"
   PLAYER_SEND_NOTICE:
     name: "&aОтправить уведомление"
+  PLAYER_IF_HAVE_ITEM:
+    name: "&fЕсли имеет предмет"
+  PLAYER_IF_SNEAKING:
+    name: "Если крадется"
   PLAYER_IF_NAME_EQUALS:
     name: "&fЕсли имя игрока равно"
   PLAYER_MAIN_HAND_ANIMATE:
@@ -172,7 +178,46 @@ action:
     name: "&cСлучайная телепортация"
   PLAYER_TELEPORT:
     name: "&cТелепортация"
+
+  # Действия/условия переменной
+  VARIABLE_ADDITION:
+    name: "&cПрибавить к числу (+=)"
+    description: "&7Прибавляет к численной переменной(0) число(1)"
+  VARIABLE_SET_VALUE:
+    name: "&fУстановить значение переменной (=)"
+    description: "&7Устанавливает значение(1) переменной(0)"
+  VARIABLE_ADD:
+    name: "&cСложение чисел (+)"
+    description: "&7Устанавливает переменной(0) сумму чисел 1 и 2"
+  VARIABLE_SUBTRACTION:
+    name: "&cВычесть из числа (-=)"
+    description: "&7Вычитает из численной переменной(0) число(1)"
+  VARIABLE_REDUCTION:
+    name: "&cРазность чисел (-)"
+    description: "&7Устанавливает переменной(0) разность чисел 1 и 2"
+  VARIABLE_COS:
+    name: "&cКосинус числа"
+    description: "&7Устанавливает переменной(0) косинус числа(1)"
+  VARIABLE_SIN:
+    name: "&cСинус числа"
+    description: "&7Устанавливает переменной(0) синус числа(1)"
+  VARIABLE_TAN:
+    name: "&cТангенс числа"
+    description: "&7Устанавливает переменной(0) тангенс числа(1)"
+  VARIABLE_LOG:
+    name: "&cЛогарифм числа"
+    description: "&7Устанавливает переменной(0) логарифм числа(1)"
+  VARIABLE_DELETE:
+    name: "&fУдалить переменную"
+    description: "&7Удаляет переменную"
+  VARIABLE_COMBINE_TEXT:
+    name: "&bСовместить тексты"
+    description: "&7Складывает два текста(1 и 2) в один, и присваивает его переменной(0)"
+  GET_SUNRISE_LOCALIZE:
+    name: "&bЗапросить локализацию у сервера"
+    description: "&7Запрашивает у сервера локализацию с ключом(1) и языком(0), присваивает его переменной(0)"
 event:
+  # События игрока
   PLAYER_JOIN_EVENT: 
     name: "&aИгрок зашёл в мир"
   PLAYER_RIGHT_CLICK_EVENT:
@@ -207,4 +252,5 @@ event:
     name: "&dИгрок телепортируется"
   
   
+
 
