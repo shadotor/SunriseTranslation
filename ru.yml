@@ -114,51 +114,97 @@ block-category:
   conditional: "&cУсловная конструкция"
   executor: "&aИсполнитель"
 action:
-  PLAYER_SEND_MESSAGE: "&aОтправить сообщение"
-  PLAYER_SEND_TITLE: "&aОтправить титл"
-  PLAYER_SEND_ACTION_BAR: "&aОтправить экшн-бар"
-  PLAYER_GIVE_ITEM: "&6Выдать предмет"
-  PLAYER_SET_EFFECT: "&cУстановить эффект"
-  PLAYER_GIVE_RANDOM_ITEM: "&6Выдать случайный предмет"
-  PLAYER_KILL: "&cУбить игрока"
-  PLAYER_DAMAGE: "&cНанести урон"
-  PLAYER_SET_GAMEMODE: "&cУстановить режим игры"
-  PLAYER_IF_NEAR_POSITION: "&fЕсли игрок рядом с местоположением"
-  PLAYER_SEND_NOTICE: "&aОтправить уведомление"
-  PLAYER_IF_NAME_EQUALS: "&fЕсли имя игрока равно"
-  PLAYER_MAIN_HAND_ANIMATE: "&dПроиграть анимацию взмаха основной руки"
-  PLAYER_OFF_HAND_ANIMATE: "&dПроиграть анимацию взмаха вторичной руки"
-  PLAYER_CLEAR_INVENTORY: "&6Очистить инвентарь"
-  PLAYER_PLAY_SOUND: "&aПроиграть звук"
-  PLAYER_SET_MAX_HEALTH: "&cУстановить максимальное здоровье"
-  PLAYER_SET_HEALTH: "&cУстановить здоровье"
-  PLAYER_SET_MOVEMENT_SPEED: "&cУстановить скорость движения"
-  PLAYER_REMOVE_EFFECT: "&cУбрать эффект"
-  PLAYER_SET_FOOD_LEVEL: "&cУстановить голод"
-  PLAYER_SET_OXYGEN_LEVEL: "&cУстановить уровень кислорода"
-  PLAYER_SET_SCALE: "&cУстановить размер"
-  PLAYER_SET_ARMOR: "&6Установить броню"
-  PLAYER_IF_GAMEMODE_EQUALS: "&fЕсли режим игры равен"
-  PLAYER_IF_HOLD_ITEM: "&fЕсли игрок держит предмет"
-  PLAYER_STOP_SOUND: "&aУбрать звук"
-  PLAYER_RANDOM_TELEPORT: "&cСлучайная телепортация"
-  PLAYER_TELEPORT: "&cТелепортация"
+  PLAYER_SEND_MESSAGE:
+    name: "&aОтправить сообщение"
+  PLAYER_SEND_TITLE:
+    name: "&aОтправить титл"
+  PLAYER_SEND_ACTION_BAR:
+    name: "&aОтправить экшн-бар"
+  PLAYER_GIVE_ITEM:
+    name: "&6Выдать предмет"
+  PLAYER_SET_EFFECT:
+    name: "&cУстановить эффект"
+  PLAYER_GIVE_RANDOM_ITEM:
+    name: "&6Выдать случайный предмет"
+  PLAYER_KILL:
+    name: "&cУбить игрока"
+  PLAYER_DAMAGE:
+    name: "&cНанести урон"
+  PLAYER_SET_GAMEMODE:
+    name: "&cУстановить режим игры"
+  PLAYER_IF_NEAR_POSITION:
+    name: "&fЕсли игрок рядом с местоположением"
+  PLAYER_SEND_NOTICE:
+    name: "&aОтправить уведомление"
+  PLAYER_IF_NAME_EQUALS:
+    name: "&fЕсли имя игрока равно"
+  PLAYER_MAIN_HAND_ANIMATE:
+    name: "&dПроиграть анимацию взмаха основной руки"
+  PLAYER_OFF_HAND_ANIMATE:
+    name: "&dПроиграть анимацию взмаха вторичной руки"
+  PLAYER_CLEAR_INVENTORY:
+    name: "&6Очистить инвентарь"
+  PLAYER_PLAY_SOUND:
+    name: "&aПроиграть звук"
+  PLAYER_SET_MAX_HEALTH:
+    name: "&cУстановить максимальное здоровье"
+  PLAYER_SET_HEALTH:
+    name: "&cУстановить здоровье"
+  PLAYER_SET_MOVEMENT_SPEED:
+    name: "&cУстановить скорость движения"
+  PLAYER_REMOVE_EFFECT:
+    name: "&cУбрать эффект"
+  PLAYER_SET_FOOD_LEVEL:
+    name: "&cУстановить голод"
+  PLAYER_SET_OXYGEN_LEVEL:
+    name: "&cУстановить уровень кислорода"
+  PLAYER_SET_SCALE:
+    name: "&cУстановить размер"
+  PLAYER_SET_ARMOR:
+    name: "&6Установить броню"
+  PLAYER_IF_GAMEMODE_EQUALS:
+    name: "&fЕсли режим игры равен"
+  PLAYER_IF_HOLD_ITEM:
+    name: "&fЕсли игрок держит предмет"
+  PLAYER_STOP_SOUND:
+    name: "&aУбрать звук"
+  PLAYER_RANDOM_TELEPORT:
+    name: "&cСлучайная телепортация"
+  PLAYER_TELEPORT:
+    name: "&cТелепортация"
 event:
-  PLAYER_JOIN_EVENT: "&aИгрок зашёл в мир"
-  PLAYER_RIGHT_CLICK_EVENT: "&eИгрок нажал правую кнопку мыши"
-  PLAYER_RESPAWN_EVENT: "&eИгрок возрождается"
-  PLAYER_LEFT_CLICK_EVENT: "&eИгрок нажал левую кнопку мыши"
-  PLAYER_QUIT_EVENT: "&cИгрок вышел из мира"
-  PLAYER_CHAT_EVENT: "&aИгрок отправил сообщение в чат"
-  PLAYER_DROP_ITEM_EVENT: "&cИгрок выкинул предмет"
-  PLAYER_BREAK_BLOCK_EVENT: "&cИгрок сломал блок"
-  PLAYER_CHANGE_GAMEMODE_EVENT: "&eИгрок изменил режим игры"
-  PLAYER_DAMAGE_EVENT: "&cИгрок получил урон"
-  PLAYER_SWAP_HAND_EVENT: "&eИгрок меняет руку"
-  PLAYER_PLACE_BLOCK_EVENT: "&cИгрок поставил блок"
-  PLAYER_INTERACT_WITH_ENTITY: "&eИгрок взаимодействует с сущностью"
-  PLAYER_INTERACT_EVENT: "&eИгрок взаимодействует с миром"
-  PLAYER_CATCH_FISH_EVENT: "&bИгрок поймал рыбу"
-  PLAYER_TELEPORT_EVENT: "&dИгрок телепортируется"
+  PLAYER_JOIN_EVENT: 
+    name: "&aИгрок зашёл в мир"
+  PLAYER_RIGHT_CLICK_EVENT:
+    name: "&eИгрок нажал правую кнопку мыши"
+  PLAYER_RESPAWN_EVENT:
+    name: "&eИгрок возрождается"
+  PLAYER_LEFT_CLICK_EVENT:
+    name: "&eИгрок нажал левую кнопку мыши"
+  PLAYER_QUIT_EVENT:
+    name: "&cИгрок вышел из мира"
+  PLAYER_CHAT_EVENT:
+    name: "&aИгрок отправил сообщение в чат"
+  PLAYER_DROP_ITEM_EVENT:
+    name: "&cИгрок выкинул предмет"
+  PLAYER_BREAK_BLOCK_EVENT:
+    name: "&cИгрок сломал блок"
+  PLAYER_CHANGE_GAMEMODE_EVENT:
+    name: "&eИгрок изменил режим игры"
+  PLAYER_DAMAGE_EVENT:
+    name: "&cИгрок получил урон"
+  PLAYER_SWAP_HAND_EVENT:
+    name: "&eИгрок меняет руку"
+  PLAYER_PLACE_BLOCK_EVENT:
+    name: "&cИгрок поставил блок"
+  PLAYER_INTERACT_WITH_ENTITY:
+    name: "&eИгрок взаимодействует с сущностью"
+  PLAYER_INTERACT_EVENT:
+    name: "&eИгрок взаимодействует с миром"
+  PLAYER_CATCH_FISH_EVENT:
+    name: "&bИгрок поймал рыбу"
+  PLAYER_TELEPORT_EVENT:
+    name: "&dИгрок телепортируется"
   
   
+
