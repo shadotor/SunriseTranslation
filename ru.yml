@@ -143,5 +143,22 @@ action:
   PLAYER_STOP_SOUND: "&aУбрать звук"
   PLAYER_RANDOM_TELEPORT: "&cСлучайная телепортация"
   PLAYER_TELEPORT: "&cТелепортация"
+event:
+  PLAYER_JOIN_EVENT: "&aИгрок зашёл в мир"
+  PLAYER_RIGHT_CLICK_EVENT: "&eИгрок нажал правую кнопку мыши"
+  PLAYER_RESPAWN_EVENT: "&eИгрок возрождается"
+  PLAYER_LEFT_CLICK_EVENT: "&eИгрок нажал левую кнопку мыши"
+  PLAYER_QUIT_EVENT: "&cИгрок вышел из мира"
+  PLAYER_CHAT_EVENT: "&aИгрок отправил сообщение в чат"
+  PLAYER_DROP_ITEM_EVENT: "&cИгрок выкинул предмет"
+  PLAYER_BREAK_BLOCK_EVENT: "&cИгрок сломал блок"
+  PLAYER_CHANGE_GAMEMODE_EVENT: "&eИгрок изменил режим игры"
+  PLAYER_DAMAGE_EVENT: "&cИгрок получил урон"
+  PLAYER_SWAP_HAND_EVENT: "&eИгрок меняет руку"
+  PLAYER_PLACE_BLOCK_EVENT: "&cИгрок поставил блок"
+  PLAYER_INTERACT_WITH_ENTITY: "&eИгрок взаимодействует с сущностью"
+  PLAYER_INTERACT_EVENT: "&eИгрок взаимодействует с миром"
+  PLAYER_CATCH_FISH_EVENT: "&bИгрок поймал рыбу"
+  PLAYER_TELEPORT_EVENT: "&dИгрок телепортируется"
   
-
+  
