@@ -100,6 +100,9 @@ coding:
 creative:
   worlds:
     creator:
+      title: "&eСоздание новый мир"
+      create-world:
+        title: "&eСоздать мир"
       settings:
         generate-structures:
           statement:
