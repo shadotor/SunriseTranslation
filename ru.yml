@@ -98,6 +98,27 @@ coding:
       values:
         title: "&fЗначения кода"
 creative:
+  worlds:
+    creator:
+      settings:
+        generate-structures:
+          statement:
+            true: "Включена"
+            false: "Выключена"
+          title: "&eГенерация структур"
+        generator:
+          statement:
+            void: "Пустота"
+            flat: "Плоскость"
+            survival: "Обычный мир"
+          title: "&aТип мира"
+        environment:
+          statement:
+            normal: "Верхний мир"
+            nether: "Незер"
+            end: "Энд"
+          title: "&6Мировое окружение"
+        
   world:
     create: "&aСоздать мир"
     reset: "&cСбросить настройки"
